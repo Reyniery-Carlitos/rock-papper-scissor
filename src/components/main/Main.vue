@@ -21,7 +21,7 @@ function goToMatch(optionSelected: string) {
 </script>
 
 <template>
-  <div class="h-full w-5/6 flex flex-col items-center justify-center gap-28">
+  <main class="h-full w-5/6 flex flex-col items-center justify-center gap-28">
     <div class="relative">
       <bg-pentagon />
 
@@ -45,5 +45,5 @@ function goToMatch(optionSelected: string) {
         <bg-scissor @click="goToMatch('scissor')" />
       </IconSlot>
     </div>
-  </div>
+  </main>
 </template>
