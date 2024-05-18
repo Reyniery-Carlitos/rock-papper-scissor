@@ -1,0 +1,17 @@
+{
+  "papper": {
+    "win": ["rock", "spock"]
+  },
+  "spock": {
+    "win": ["scissor", "rock"]
+  },
+  "lizard": {
+    "win": ["spock", "papper"]
+  },
+  "rock": {
+    "win": ["scissor", "lizard"]
+  },
+  "scissor": {
+    "win": ["papper", "lizard"]
+  }
+}
